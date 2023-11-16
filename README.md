@@ -2,9 +2,12 @@
 ٱلسَّلَامُ عَلَيْكُمْ
 ```
 
-I'm Habibur Rahman, stuent in CSE at Bangabandhu Sheikh Mujibur  Rahman Sciecne and  Technology University, Gopalganj-8100, Bangladesh.
-I'm  pationate about Java  Technology  and Machine Learning.
-I'm currently learning Spring Frame work and  working on a Machine Learning Project.
+# I'm Habibur Rahman, 
+## Stuent in CSE at Bangabandhu Sheikh Mujibur Rahman Sciecne and Technology University, Gopalganj-8100, Bangladesh.
+- I'm  pationate about Java  Technology  and Machine Learning.
+- I'm currently learning Spring Frame work
+- Working on a Machine Learning
+
 <!--
 **habibur-rahman-swe/habibur-rahman-swe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
