@@ -1,6 +1,6 @@
 
 ![Habibur Rahmans's GitHub stats](https://github-readme-stats.vercel.app/api?username=habibur-rahman-swe&show_icons=true&theme=transparent)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=habibur-rahman-swe&hide_progress=true)
 <!--
 **habibur-rahman-swe/habibur-rahman-swe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
