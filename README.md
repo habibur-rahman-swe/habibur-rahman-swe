@@ -1,16 +1,8 @@
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=habibur-rahman-swe" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=habibur-rahman-swe&layout=compact&langs_count=8&card_width=320" />
-</a>
+ٱلسَّلَامُ عَلَيْكُمْ
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=habibur-rahman-swe&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=habibur-rahman-swe&repo=convoychat" />
-</a>
+I'm Habibur Rahman, stuent in CSE at Bangabandhu Sheikh Mujibur  Rahman Sciecne and  Technology University, Gopalganj-8100, Bangladesh.
+I'm  pationate about Java  Technology  and Machine Learning.
+I'm currently learning Spring Frame work and  working on a Machine Learning Project.
 <!--
 **habibur-rahman-swe/habibur-rahman-swe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -25,3 +17,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=habibur-rahman-swe" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=habibur-rahman-swe&layout=compact&langs_count=8&card_width=320" />
+</a>
+
