@@ -1,6 +1,8 @@
 
 ![Habibur Rahmans's GitHub stats](https://github-readme-stats.vercel.app/api?username=habibur-rahman-swe&show_icons=true&theme=transparent)
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/habibur-rahman-swe/github-readme-stats)
+
+
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=habibur-rahman-swe)](https://github.com/habibur-rahman-swe/github-readme-stats)
 <!--
 **habibur-rahman-swe/habibur-rahman-swe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
