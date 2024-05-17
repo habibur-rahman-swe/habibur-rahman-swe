@@ -3,7 +3,7 @@
 ```
 
 # I'm Habibur Rahman, 
-#### Studing in CSE at Bangabandhu Sheikh Mujibur Rahman Sciecne and Technology University, Gopalganj-8100, Bangladesh.
+#### Graduated in CSE from Bangabandhu Sheikh Mujibur Rahman Sciecne and Technology University, Gopalganj, Bangladesh.
 - I'm  pationate about Java  Technology  and Machine Learning.
 - I'm currently learning Spring Frame work
 - Working on a Machine Learning
