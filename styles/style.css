@@ -218,17 +218,32 @@ main {
     font-size: var(--fs-3);
     font-weight: var(--fw-500);
     letter-spacing: -0.25px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .info-content .title {
+    color: var(--white-2);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-400);
+    letter-spacing: -0.25px;
+    margin-bottom: 6px;
+}
+
+.info-content .tech {
+    display: flex;
+    justify-content: center;
+}
+
+.info-content .tech span {
     color: var(--white-1);
     background: var(--onyx);
     font-size: var(--fs-8);
     font-weight: var(--fw-300);
     width: max-content;
     padding: 3px 12px;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .info_more-btn {
@@ -308,4 +323,26 @@ main {
 .contact-info :is(.contact-link, time, address) {
     color: var(--white-2);
     font-size: var(--fs-7);
+}
+
+.contact-info address {
+    font-style: normal;
+}
+
+.social-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+}
+
+.social-item .social-link {
+    color: var(--light-gray-70);
+    font-size: 18px;
+}
+
+.social-item .social-link:hover {
+    color: var(--light-gray);
 }
