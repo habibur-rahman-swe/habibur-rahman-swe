@@ -2,11 +2,12 @@
 ٱلسَّلَامُ عَلَيْكُمْ
 ```
 
-# I'm Habibur Rahman, 
+# I'm Habibur Rahman,
+
 #### Graduated in CSE from Bangabandhu Sheikh Mujibur Rahman Sciecne and Technology University, Gopalganj, Bangladesh.
-- I'm  pationate about Java  Technology  and Machine Learning.
-- I'm currently learning Spring Frame work
-- Working on a Machine Learning
+
+- I'm pationate about Java Technology and Machine Learning.
+- I'm currently working with spring framework and android
 
 <!--
 **habibur-rahman-swe/habibur-rahman-swe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -29,4 +30,3 @@ Here are some ideas to get you started:
 <a href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=habibur-rahman-swe&layout=compact&langs_count=8&card_width=320" />
 </a>
-
