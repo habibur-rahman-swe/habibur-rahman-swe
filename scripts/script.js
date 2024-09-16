@@ -166,3 +166,14 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Change current time
+const now = new Date();
+
+// Format the date as "14 June, 2021"
+const formattedDate = now.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+
+// Update the HTML element
+const timeElement = document.getElementById('current-time');
+timeElement.setAttribute('datetime', now.toISOString().split('T')[0]); // YYYY-MM-DD
+timeElement.textContent = formattedDate;
