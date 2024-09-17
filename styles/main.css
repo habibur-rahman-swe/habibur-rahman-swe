@@ -316,8 +316,23 @@ main {
   box-shadow: var(--shadow-1);
 }
 
+.testimonials-avatar-box img {
+  padding: 20px;
+}
+
 .testimonials-item-title {
   margin-bottom: 7px;
+}
+
+h4 a {
+  color: var(--white-2);
+  text-transform: lowercase;
+  display: unset;
+}
+
+h3 a {
+  color: var(--white-2);
+  text-transform: lowercase;
 }
 
 .testimonials-text {
