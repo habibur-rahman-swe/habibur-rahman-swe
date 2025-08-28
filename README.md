@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Habibur Rahman</h1>
 <h3 align="center">Software Engineer | Research Enthusiast in AI, Machine Learning & Computer Vision | Aspiring MSc+PhD Candidate</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=habibur-rahman-swe&label=Profile%20views&color=0e75b6&style=flat" alt="habibur-rahman-swe" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=habibur-rahman-swe" alt="habibur-rahman-swe" /></a> </p>
-
 - 🔭 I’m currently working on [Together Initiatives Ltd](https://www.i2gether.com/)
 
 - 🌱 I’m currently learning **TensorFlow**
