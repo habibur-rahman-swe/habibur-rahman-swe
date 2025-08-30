@@ -316,32 +316,3 @@ footer {
 :root.dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
-/* Dark mode: Bootstrap modal readability fixes */
-:root.dark .modal-content {
-    background-color: #16213e;
-    color: #ffffff;
-    border-color: rgba(255, 255, 255, 0.15);
-}
-
-:root.dark .modal-header,
-:root.dark .modal-body,
-:root.dark .modal-footer {
-    color: #ffffff;
-    border-color: rgba(255, 255, 255, 0.1);
-}
-
-:root.dark .modal-title {
-    color: #ffffff;
-}
-
-:root.dark .modal-content .text-muted {
-    color: rgba(255, 255, 255, 0.7) !important;
-}
-
-:root.dark .btn-close {
-    filter: invert(1) grayscale(100%);
-}
-
-:root.dark .modal-content a {
-    color: #66b2ff;
-}

@@ -8,7 +8,8 @@
         "author": "Habibur Rahman",
         "tags": ["Java", "Spring Boot", "Microservices", "Backend"],
         "readTime": "5 min read",
-        "image": "./spring-flowers.jpg"
+        "image": "./spring-flowers.jpg",
+        "externalUrl": "https://spring.io/projects/spring-boot"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
         "author": "Habibur Rahman",
         "tags": ["Machine Learning", "Healthcare", "Python", "AI"],
         "readTime": "7 min read",
-        "image": "./spring-flowers.jpg"
+        "image": "./spring-flowers.jpg",
+        "externalUrl": "https://www.ibm.com/topics/machine-learning-healthcare"
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
         "author": "Habibur Rahman",
         "tags": ["Competitive Programming", "Algorithms", "Problem Solving"],
         "readTime": "6 min read",
-        "image": "./spring-flowers.jpg"
+        "image": "./spring-flowers.jpg",
+        "externalUrl": "https://cp-algorithms.com/"
     },
     {
         "id": 4,
@@ -41,6 +44,7 @@
         "author": "Habibur Rahman",
         "tags": ["Web Development", "Bootstrap", "Responsive Design", "CSS"],
         "readTime": "8 min read",
-        "image": "./spring-flowers.jpg"
+        "image": "./spring-flowers.jpg",
+        "externalUrl": "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
     }
 ]

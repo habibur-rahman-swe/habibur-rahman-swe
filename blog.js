@@ -138,7 +138,7 @@ function showBlogPostModal(post) {
                         ${post.tags.map(tag => `<span class="badge bg-secondary me-1">${tag}</span>`).join('')}
                     </div>
                     <div class="blog-content">
-                        ${post.content}
+                        ${post.content}${post.externalUrl ? ' <a href="' + post.externalUrl + '" target="_blank" rel="noopener" class="ms-1 fw-semibold">Learn more...</a>' : ''}
                     </div>
                 </div>
                 <div class="modal-footer">
