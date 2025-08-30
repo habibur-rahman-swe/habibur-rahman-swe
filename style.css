@@ -1,0 +1,318 @@
+:root {
+    --bg-color: #fefefe;
+    --text-color: #2c3e50;
+    --section-bg: #f5f5f5;
+    --header-bg: #e67e22;
+    --nav-bg: #ffffff;
+    --nav-text: #2c3e50;
+    --link-hover: #d35400;
+    --accent-color: #e67e22;
+}
+
+:root.dark {
+    --bg-color: #1a1a2e;
+    --text-color: #ffffff;
+    --section-bg: #16213e;
+    --header-bg: #0f3460;
+    --nav-bg: #16213e;
+    --nav-text: #ffffff;
+    --link-hover: #533483;
+    --accent-color: #0f3460;
+}
+
+:root.dark h1, :root.dark h2, :root.dark h3 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Override Bootstrap's bg-light for dark mode compatibility */
+:root.dark .bg-light {
+    background-color: var(--section-bg) !important;
+}
+
+/* Improve h2 readability in dark mode */
+:root.dark section h2 {
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', 'Arial', sans-serif;
+    line-height: 1.8;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    opacity: 0;
+    animation: fadeInPage 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    background-color: var(--nav-bg) !important;
+    color: var(--nav-text) !important;
+    transition: background-color 0.3s;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--nav-text) !important;
+}
+
+.nav-link:hover {
+    color: var(--link-hover) !important;
+}
+
+header {
+    background: var(--header-bg);
+    color: white;
+    padding-top: 160px; /* Account for fixed nav */
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+section {
+    padding: 80px 0;
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease;
+}
+
+section h2 {
+    color: var(--accent-color);
+    margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p, li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    position: relative;
+    padding-left: 20px;
+}
+
+li::before {
+    content: "•";
+    color: var(--link-hover);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: var(--link-hover);
+    transform: translateY(-2px);
+}
+
+.btn {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--link-hover);
+    border-color: var(--link-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Back to top button */
+.back-to-top {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.back-to-top:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Modern navbar styles */
+.modern-navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:root.dark .modern-navbar {
+    background-color: rgba(26, 26, 46, 0.95) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modern-navbar .navbar-brand:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.modern-navbar .nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.modern-navbar .nav-link:hover {
+    transform: translateY(-2px);
+}
+
+.modern-navbar .nav-link.active {
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Modern styles for contact page */
+.bg-gradient {
+    background: linear-gradient(135deg, var(--header-bg) 0%, #f39c12 100%);
+    color: black !important;
+}
+
+.bg-gradient .text-white {
+    color: black !important;
+}
+
+:root.dark .bg-gradient {
+    background: linear-gradient(135deg, var(--header-bg) 0%, #1a1a2e 100%);
+    color: white !important;
+}
+
+:root.dark .bg-gradient .text-white {
+    color: white !important;
+}
+
+.bg-gradient-secondary {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+:root.dark .bg-gradient-secondary {
+    background: linear-gradient(135deg, #2c3e50 0%, #495057 100%);
+}
+
+.modern-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+}
+
+.modern-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info a {
+        margin: 5px 0;
+    }
+    section {
+        padding: 60px 0;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+/* Theme toggle button visibility in dark mode */
+:root.dark #theme-toggle {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #1a1a2e !important;
+}
+
+:root.dark #theme-toggle:hover {
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+    color: #1a1a2e !important;
+}
+
+/* Make navbar toggler visible in dark mode */
+:root.dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+:root.dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}

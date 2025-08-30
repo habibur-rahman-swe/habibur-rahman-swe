@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Getting Started with Spring Boot Microservices",
+        "excerpt": "Learn how to build scalable microservices using Spring Boot framework with practical examples and best practices.",
+        "content": "Spring Boot has revolutionized the way we build Java applications. In this post, we'll explore the fundamentals of creating microservices with Spring Boot...",
+        "date": "2024-01-15",
+        "author": "Habibur Rahman",
+        "tags": ["Java", "Spring Boot", "Microservices", "Backend"],
+        "readTime": "5 min read",
+        "image": "./spring-flowers.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Machine Learning in Medical Diagnosis",
+        "excerpt": "Exploring how AI and machine learning are transforming medical diagnosis, with a focus on osteoporosis detection using X-ray images.",
+        "content": "Artificial Intelligence is making significant impacts in healthcare. This article discusses the application of deep learning techniques...",
+        "date": "2024-01-10",
+        "author": "Habibur Rahman",
+        "tags": ["Machine Learning", "Healthcare", "Python", "AI"],
+        "readTime": "7 min read",
+        "image": "./spring-flowers.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Competitive Programming: Tips and Tricks",
+        "excerpt": "Essential strategies and techniques to improve your competitive programming skills and perform better in coding contests.",
+        "content": "Competitive programming requires not just coding skills but also problem-solving strategies. Here are some tips that have helped me...",
+        "date": "2024-01-05",
+        "author": "Habibur Rahman",
+        "tags": ["Competitive Programming", "Algorithms", "Problem Solving"],
+        "readTime": "6 min read",
+        "image": "./spring-flowers.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Building Responsive Web Applications",
+        "excerpt": "A comprehensive guide to creating modern, responsive web applications using Bootstrap and best practices.",
+        "content": "In today's multi-device world, responsive design is crucial. This guide covers everything you need to know about building responsive web apps...",
+        "date": "2024-01-01",
+        "author": "Habibur Rahman",
+        "tags": ["Web Development", "Bootstrap", "Responsive Design", "CSS"],
+        "readTime": "8 min read",
+        "image": "./spring-flowers.jpg"
+    }
+]

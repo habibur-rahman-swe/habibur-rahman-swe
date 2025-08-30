@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Habibur Rahman</title>
+    <meta name="description" content="Blog by Habibur Rahman - Thoughts on software development, technology, and programming">
+    <meta name="keywords" content="Habibur Rahman, Blog, Software Development, Technology, Programming">
+    <meta name="author" content="Habibur Rahman">
+    <script>
+        // Prevent flash of unstyled content by setting theme before CSS loads
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top modern-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <i class="fas fa-code text-primary me-2"></i>
+                Habibur Rahman
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="index.html">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="about.html">
+                            <i class="fas fa-user me-1"></i>About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="projects.html">
+                            <i class="fas fa-project-diagram me-1"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center active" href="blog.html">
+                            <i class="fas fa-blog me-1"></i>Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="contact.html">
+                            <i class="fas fa-envelope me-1"></i>Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="habibur_rahman_gstu_resume_java.pdf" download>
+                            <i class="fas fa-download me-1"></i>Download CV
+                        </a>
+                    </li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-secondary ms-3 d-flex align-items-center">
+                    <i class="fas fa-moon me-1"></i><span id="theme-text">Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient text-white py-6">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">My Blog</h1>
+            <p class="lead fs-5">Thoughts on software development, technology, and programming</p>
+            <div class="mt-4">
+                <i class="fas fa-pen-fancy fa-2x me-3"></i>
+                <i class="fas fa-code fa-2x me-3"></i>
+                <i class="fas fa-lightbulb fa-2x"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-6">
+        <div class="container">
+            <div id="blog-posts" class="row">
+                <!-- Blog posts will be loaded here -->
+            </div>
+            <div id="loading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading blog posts...</p>
+            </div>
+            <div id="error" class="text-center py-5 d-none">
+                <i class="fas fa-exclamation-triangle fa-3x text-warning mb-3"></i>
+                <p>Failed to load blog posts. Please try again later.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Habibur Rahman. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>
