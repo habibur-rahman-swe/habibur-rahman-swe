@@ -11,9 +11,9 @@
 
 ## About Me
 
-I am **Habibur Rahman**, a **Junior Software Engineer** with **2+ years** of experience building and maintaining **Java Spring Boot microservices** for production **payment systems**.
+I am **Habibur Rahman**, a **Junior Software Engineer** with **2+ years** of experience building **Java Spring Boot microservices** for **real-time payment systems**.
 
-I work on card transaction flows for **Visa** and **Mastercard** using **ISO 8583** messaging, and I care about reliable APIs, secure auth, and systems that hold up under real load.
+I work on card transaction flows for **Visa** and **Mastercard** using **ISO 8583** messaging, secure APIs with **Spring Security**, and concurrent backends that stay correct under load — locking, caching, and event-driven processing.
 
 ---
 
@@ -22,12 +22,14 @@ I work on card transaction flows for **Visa** and **Mastercard** using **ISO 858
 ### Junior Software Engineer — Together Initiatives Ltd
 **Jan 2024 – Present** · Dhaka, Bangladesh
 
-- Develop and maintain a production payment service handling Visa and Mastercard card flows with **ISO 8583** messaging
+- Build and maintain a **real-time payment system** handling Visa and Mastercard card flows with **ISO 8583** messaging
 - Extend ISO 8583 parsing and field mapping for new network requirements and fewer transaction failures
-- Build **Java Spring Boot** microservices and **REST APIs** for reliable, scalable backends
-- Implement **OAuth 2.0** with **Azure AD**, secure secrets with **Azure Key Vault**, and integrate **LDAP** auth
-- Improve performance with **Apache Kafka**, **Redis**, and **PostgreSQL** row-level locking for concurrent transactions
-- Deliver full-stack features with **React** + Spring Boot; generate PDF/Excel reports with **JasperReports**
+- Design **microservice architecture** with **Java Spring Boot** and **REST APIs** for scalable backend services
+- Secure APIs with **Spring Security** — **JWT**, **Basic Auth**, and **OAuth 2.0** (Azure AD); protect secrets with **Azure Key Vault** and integrate **LDAP**
+- Apply concurrency controls: **PostgreSQL row locks**, **hash / advisory locks** on values, for safe concurrent transactions
+- Improve performance with **Redis** caching and **Apache Kafka** stream processing for event-driven workflows
+- Generate **PDF** and **Excel** reports with **JasperReports**, including **Bangla** language support and **dynamic sizing**
+- Deliver full-stack features with **React** + Spring Boot
 
 ---
 
@@ -36,12 +38,15 @@ I work on card transaction flows for **Visa** and **Mastercard** using **ISO 858
 | Category | Technologies |
 |----------|--------------|
 | **Languages** | Java, SQL, JavaScript, TypeScript, Python, C, C++ |
-| **Backend** | Spring Boot, Spring Security, Microservices, REST APIs, Apache Kafka, Redis, Liquibase |
+| **Backend** | Spring Boot, Spring Security (JWT, Basic Auth, OAuth 2.0), Microservices, REST APIs, Liquibase |
+| **Messaging & Cache** | Apache Kafka (stream processing), Redis (caching) |
+| **Concurrency** | Row locks, Hash / advisory locks |
 | **Frontend** | React, HTML, CSS |
 | **Databases** | PostgreSQL, MySQL |
 | **Cloud & Security** | Azure Active Directory, Azure Key Vault, OAuth 2.0, LDAP |
-| **DevOps & Tools** | Docker, Git, GitHub, Maven, Gradle, JUnit, Mockito, Datadog, Zipkin, JasperReports, Jira, Snyk |
-| **Domain** | Payment Systems, ISO 8583, Visa, Mastercard |
+| **Reporting** | JasperReports (PDF, Excel, Bangla, dynamic sizing) |
+| **DevOps & Tools** | Docker, Git, GitHub, Maven, Gradle, JUnit, Mockito, Datadog, Zipkin, Jira, Snyk |
+| **Domain** | Real-time Payment Systems, ISO 8583, Visa, Mastercard |
 
 **Competitive Programming:** LeetCode **1700+** · **700+** problems · [Codeforces](https://codeforces.com/profile/habib_48)
 
