@@ -552,8 +552,8 @@ ul {
     background: var(--paper);
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    padding: var(--space);
+    justify-content: flex-start;
+    padding: calc(4.5rem + env(safe-area-inset-top, 0px)) var(--space) var(--space);
     gap: 1.5rem;
     transform: translateY(-100%);
     visibility: hidden;
