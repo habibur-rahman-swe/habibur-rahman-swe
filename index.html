@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habibur Rahman — Software Engineer</title>
+    <meta
+      name="description"
+      content="Habibur Rahman — Junior Software Engineer building Spring Boot systems and exploring applied ML. Based in Dhaka, Bangladesh."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="#top">HR</a>
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__list" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="Introduction">
+        <div class="hero__media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1920&q=80"
+            alt=""
+            width="1920"
+            height="1280"
+          />
+        </div>
+        <div class="hero__veil" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__brand">Habibur Rahman</p>
+          <h1 class="hero__title">
+            Software systems with purpose — from payments to research.
+          </h1>
+          <p class="hero__lead">
+            Junior Software Engineer in Dhaka. Spring Boot microservices by day;
+            applied machine learning and MSc ambitions by night.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Get in touch</a>
+            <a class="btn btn--ghost" href="#work">See experience</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section__inner">
+          <p class="eyebrow">About</p>
+          <h2>Engineer first. Researcher in training.</h2>
+          <p class="section__text">
+            I am a Computer Science graduate and Junior Software Engineer at
+            Together Initiatives Ltd, with 2+ years building production Java
+            Spring Boot microservices and real-time payment systems. My
+            undergraduate thesis on CNN-based osteoporosis diagnosis from knee
+            X-rays (93.9% test accuracy) deepened my interest in applied ML. I am
+            seeking an MSc with scholarship in Computer Science or Software
+            Engineering.
+          </p>
+          <ul class="interest-list" aria-label="Interests">
+            <li>Microservices &amp; data-intensive backends</li>
+            <li>Cybersecurity &amp; reliable production software</li>
+            <li>Applied ML &amp; computer vision</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="work">
+        <div class="section__inner">
+          <p class="eyebrow">Experience</p>
+          <h2>Industry work</h2>
+          <article class="role">
+            <header class="role__header">
+              <h3>Junior Software Engineer</h3>
+              <p class="role__meta">
+                Together Initiatives Ltd · Jan 2024 – Present · Dhaka
+              </p>
+            </header>
+            <ul class="role__list">
+              <li>
+                Real-time card payments (Visa / Mastercard, ISO 8583) with Spring
+                Boot microservices
+              </li>
+              <li>
+                LIC for Robi Axiata Bangladesh — Spring, Kafka, JasperReports
+                with Bangla support
+              </li>
+              <li>
+                Security with Spring Security (JWT, Basic Auth, OAuth 2.0 / Azure
+                AD), Azure Key Vault, LDAP
+              </li>
+              <li>
+                Reliability via Redis, Kafka, PostgreSQL row and advisory locks
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section__inner">
+          <p class="eyebrow">Research</p>
+          <h2>Thesis highlight</h2>
+          <article class="feature">
+            <h3>
+              <a
+                href="https://github.com/habibur-rahman-swe/osteoporosis-diagnosis-X-ray-4-2"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Osteoporosis diagnosis from knee X-rays</a
+              >
+            </h3>
+            <p>
+              Computer-aided diagnosis using CNNs and transfer learning
+              (Xception). Dataset of 1,573 images; test accuracy 93.9% with macro
+              F1 of 0.94.
+            </p>
+            <p class="feature__meta">
+              GSTU · B.Sc. CSE · CGPA 3.03 / 4.00 · Jan 2019 – Mar 2023
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="projects">
+        <div class="section__inner">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+          <ul class="project-list">
+            <li>
+              <a
+                href="https://github.com/habibur-rahman-swe/rice-mill-erp"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Rice Mill ERP</a
+              >
+              <span>Java · Spring Boot · React · PostgreSQL · Docker</span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/habibur-rahman-swe/book-store"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Book Store</a
+              >
+              <span>Spring Framework practice app</span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/habibur-rahman-swe/electricity-bill-calculator"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Electricity Bill Calculator</a
+              >
+              <span>JavaScript utility</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section__inner">
+          <p class="eyebrow">Skills</p>
+          <h2>What I work with</h2>
+          <div class="skills">
+            <p><strong>Languages</strong> — Java, SQL, JavaScript, TypeScript, Python, C/C++</p>
+            <p><strong>Backend</strong> — Spring Boot, Security, Kafka, Redis, PostgreSQL</p>
+            <p><strong>ML</strong> — TensorFlow / Keras, CNNs, transfer learning</p>
+            <p><strong>Frontend</strong> — React, HTML, CSS</p>
+            <p><strong>Competitive</strong> — LeetCode 1700+ · 700+ problems</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact">
+        <div class="section__inner">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s talk</h2>
+          <p class="section__text">
+            Open to MSc opportunities, research collaborations, and engineering
+            conversations.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:habibur0199mhr@gmail.com">habibur0199mhr@gmail.com</a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/habibur-rahman-swe"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/habibur-rahman-swe/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://leetcode.com/u/habib_48"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LeetCode</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Habibur Rahman · Dhaka, Bangladesh</p>
+      <p class="site-footer__quote">
+        “I don’t just write code — I engineer solutions with purpose.”
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
