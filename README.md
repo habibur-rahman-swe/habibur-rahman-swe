@@ -26,7 +26,7 @@ I am **hardworking**, **passionate**, and **disciplined**, with a strong learnin
 ## Education
 
 **Gopalganj Science and Technology University (GSTU)**  
-B.Sc. in Computer Science and Engineering · CGPA **3.03 / 4.00** · Jan 2019 – Mar 2023
+B.Sc. in Computer Science and Engineering · CGPA **3.03 / 4.00** · Jan 2019 – Nov 2024
 
 **Thesis:** [*Osteoporosis Diagnosis from X-ray Images Using CNN*](https://github.com/habibur-rahman-swe/osteoporosis-diagnosis-X-ray-4-2)  
 Course: CSE 478 · Completed November 2023 · Student ID: `18CSE048`
